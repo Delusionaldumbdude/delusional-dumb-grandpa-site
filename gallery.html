@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Delusional Dumb Grandpa</title>
+<meta name="description" content="Store gallery. Gear for delusional legends only.">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo"><span>DELUSIONAL</span><span class="l2">DUMB <span class="g">GRANDPA</span></span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <button aria-label="Search">🔍</button>
+      <button aria-label="Account">👤</button>
+      <button class="cart-btn" aria-label="Cart">🛒<span class="cart-badge">0</span></button>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>STORE <span class="accent-purple">GALLERY.</span></h1>
+        <p class="lead accent-gold" style="font-weight:700;">Gear For Delusional Legends Only.</p>
+        <p class="lead">Explore the full collection of officially approved Delusional Dumb Grandpa gear. Wear your <span class="accent-purple">mindset</span>. Live the <span class="accent-gold">lifestyle</span>.</p>
+      </div>
+      <div class="grandpa-figure">
+        <img src="images/grandpa-gallery.jpg" alt="Delusional Dumb Grandpa mascot" onerror="this.style.display='none'; this.parentElement.querySelector('.ph-fallback').style.display='flex';">
+        <div class="ph-fallback" style="display:none; flex-direction:column; align-items:center; gap:10px;">
+          <span style="font-size:3rem;">😝</span>
+          <span class="placeholder-label">Drop final art in as images/grandpa-gallery.jpg</span>
+        </div>
+        <div class="mug-quote">
+          <img src="images/badge-mug.jpg" alt="Delusional Dumb Grandpa holding his limited-edition mug">
+          <span class="mug-caption">I don't need Google. My brain is <span class="accent-purple">limited edition.</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="filter-tabs">
+        <button class="active" data-filter="all">All Products</button>
+        <button data-filter="apparel">👕 Apparel</button>
+        <button data-filter="headwear">🧢 Headwear</button>
+        <button data-filter="drinkware">☕ Drinkware</button>
+        <button data-filter="accessories">👜 Accessories</button>
+        <button data-filter="stickers">🙂 Stickers</button>
+        <button data-filter="sale">🔥 Sale</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gcard" data-category="apparel">
+          <div class="thumbs"><div class="thumb"></div><div class="thumb"></div></div>
+          <h3>Apparel</h3>
+          <p>T-Shirts, Hoodies, Tank Tops &amp; More</p>
+          <a href="shop.html" class="btn btn-outline btn-block">View Apparel</a>
+          <small>24 items</small>
+        </div>
+        <div class="gcard" data-category="headwear">
+          <div class="thumbs"><div class="thumb"></div><div class="thumb"></div></div>
+          <h3>Headwear</h3>
+          <p>Hats, Beanies &amp; More</p>
+          <a href="shop.html" class="btn btn-outline btn-block">View Headwear</a>
+          <small>12 items</small>
+        </div>
+        <div class="gcard" data-category="drinkware">
+          <div class="thumbs"><div class="thumb"></div><div class="thumb"></div></div>
+          <h3>Drinkware</h3>
+          <p>Mugs, Tumblers, Bottles &amp; More</p>
+          <a href="shop.html" class="btn btn-outline btn-block">View Drinkware</a>
+          <small>18 items</small>
+        </div>
+        <div class="gcard" data-category="accessories">
+          <div class="thumbs"><div class="thumb"></div><div class="thumb"></div></div>
+          <h3>Accessories</h3>
+          <p>Bags, Phone Cases, Keychains &amp; More</p>
+          <a href="shop.html" class="btn btn-outline btn-block">View Accessories</a>
+          <small>20 items</small>
+        </div>
+        <div class="gcard" data-category="stickers">
+          <div class="thumbs"><div class="thumb"></div><div class="thumb"></div></div>
+          <h3>Stickers</h3>
+          <p>Stickers &amp; Decals For Everything</p>
+          <a href="shop.html" class="btn btn-outline btn-block">View Stickers</a>
+          <small>30 items</small>
+        </div>
+        <div class="gcard sale" data-category="sale">
+          <h2>%</h2>
+          <h3 class="accent-gold">Sale</h3>
+          <p>Discounted Gear For Smart Fools</p>
+          <a href="shop.html" class="btn btn-gold btn-block">Shop Sale</a>
+          <small>15 items</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="trust-row">
+      <div><div class="ic">👑</div><h4>Dumb By Choice</h4><p>It's not a phase. It's a lifestyle.</p></div>
+      <div><div class="ic">😝</div><h4>Premium Quality</h4><p>Built to last. Made for legends.</p></div>
+      <div><div class="ic">⚡</div><h4>Fast Shipping</h4><p>We get it to you quick. No overthinking.</p></div>
+      <div><div class="ic">🔒</div><h4>Secure Checkout</h4><p>Shop smart. Stay dumb.</p></div>
+      <div><div class="ic">❤️</div><h4>100% Original</h4><p>Official Delusional Dumb Grandpa Gear.</p></div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span>DELUSIONAL</span><span class="l2">DUMB <span class="g">GRANDPA</span></span></div>
+        <p class="footer-tagline">Dumb by choice.</p>
+      </div>
+      <div>
+        <h4 style="font-size:.9rem; color:var(--gold);">Follow Grandpa</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div>
+        <h4 style="font-size:.9rem; color:var(--gold);">Join The Delusional Crew</h4>
+        <p style="font-size:.82rem; opacity:.75;">Get laughs, new drops, and dumb wisdom.</p>
+        <form class="newsletter-form" data-demo-form data-success-message="You're in. Welcome to the crew.">
+          <input type="email" placeholder="Enter your email" required>
+          <button class="btn btn-gold" type="submit">Subscribe</button>
+        </form>
+        <p class="form-status tiny-note"></p>
+      </div>
+      <div class="remember-box">
+        <h4>Remember:</h4>
+        <p>Life happens.</p><p>Coffee helps.</p><p>Delusions make it fun.</p><p>Keep laughing. Keep living.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Delusional Dumb Grandpa. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
